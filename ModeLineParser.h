@@ -19,11 +19,11 @@
 - (BOOL)tryParseFile:(NSString*)aPath;
 
 // the size of each tab
-// returns -1 on error.
+// returns 2 on error.
 - (int)tabWidth;
 
 // are we using hard tabs, or spaces?
-// defaults to NO on error.
+// defaults to YES on error.
 - (BOOL)softTabs;
 
 // e.g., "C++", "Java", etc.

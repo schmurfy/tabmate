@@ -65,13 +65,13 @@ static int min(int a, int b) {
 - (int)tabWidth
 {
   NSString *width = [mModeDict objectForKey:@"tab-width"];
-  return (width ? [width intValue] : -1);
+  return (width ? [width intValue] : 2);
 }
 
 - (BOOL)softTabs
 {
   NSString *indentMode = [mModeDict objectForKey:@"indent-tabs-mode"];
-  return (indentMode ? [indentMode isEqualToString:@"nil"] : NO);
+  return (indentMode ? [indentMode isEqualToString:@"nil"] : YES);
 }
 
 - (NSString*)modeLanguage 
