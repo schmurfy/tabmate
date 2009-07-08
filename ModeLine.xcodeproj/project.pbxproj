@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		FF049BD60A91D552004B8421 /* LICENSES in Resources */ = {isa = PBXBuildFile; fileRef = FF049BD50A91D552004B8421 /* LICENSES */; };
+		FF29ADE60A112F4B003F77BD /* AGRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF29ADE50A112F4B003F77BD /* AGRegex.framework */; };
+		FF29ADEA0A112F5C003F77BD /* AGRegex.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF29ADE50A112F4B003F77BD /* AGRegex.framework */; };
+		FF6CA9650A0FE9C60021FBA1 /* TabMate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF6CA9630A0FE9C60021FBA1 /* TabMate.h */; };
+		FF6CA9660A0FE9C60021FBA1 /* TabMate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6CA9640A0FE9C60021FBA1 /* TabMate.m */; };
+		FF6CAA160A0FF73C0021FBA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C1672FE841209C02AAC07 /* Foundation.framework */; };
+		FF6CAADE0A0FFBAA0021FBA1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6CAADD0A0FFBAA0021FBA1 /* AppKit.framework */; };
+		FFD5E4730A0D2AB100EE3F20 /* ModeLineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD5E4720A0D2AB100EE3F20 /* ModeLineParser.m */; };
+		FFD5E4780A0D313C00EE3F20 /* TextMateGlue.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD5E4770A0D313C00EE3F20 /* TextMateGlue.m */; };
+		FFF28E160DA10A0100A44010 /* SenFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF28E150DA10A0100A44010 /* SenFoundation.framework */; };
+		FFF28E1A0DA10A4A00A44010 /* TestModelineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF28E190DA10A4A00A44010 /* TestModelineParser.m */; };
+		FFF28E240DA10A7400A44010 /* AGRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF29ADE50A112F4B003F77BD /* AGRegex.framework */; };
+		FFF28E2D0DA10AB900A44010 /* ModeLineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD5E4720A0D2AB100EE3F20 /* ModeLineParser.m */; };
+		FFF28E4A0DA10C3600A44010 /* AGRegex.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF29ADE50A112F4B003F77BD /* AGRegex.framework */; };
+		FFF28E740DA10CF300A44010 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6CAADD0A0FFBAA0021FBA1 /* AppKit.framework */; };
+		FFF28E960DA10F1400A44010 /* testfiles in CopyFiles */ = {isa = PBXBuildFile; fileRef = FFF28E920DA10F1400A44010 /* testfiles */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF6209CA0A0D8ED900190677 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Frameworks;
+			dstSubfolderSpec = 7;
+			files = (
+				FF6CA9650A0FE9C60021FBA1 /* TabMate.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6CABDF0A0FFE480021FBA1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF29ADEA0A112F5C003F77BD /* AGRegex.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF28E4E0DA10C3A00A44010 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FFF28E4A0DA10C3600A44010 /* AGRegex.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF28EF60DA113ED00A44010 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /var/tmp/;
+			dstSubfolderSpec = 0;
+			files = (
+				FFF28E960DA10F1400A44010 /* testfiles in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* ModeLine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeLine_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* TabMate.tmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabMate.tmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF049BD50A91D552004B8421 /* LICENSES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSES; sourceTree = "<group>"; };
+		FF29ADE50A112F4B003F77BD /* AGRegex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGRegex.framework; path = ../../AGRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6CA9630A0FE9C60021FBA1 /* TabMate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabMate.h; sourceTree = "<group>"; };
+		FF6CA9640A0FE9C60021FBA1 /* TabMate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabMate.m; sourceTree = "<group>"; };
+		FF6CAADD0A0FFBAA0021FBA1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		FFD5E4710A0D2AB100EE3F20 /* ModeLineParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeLineParser.h; sourceTree = "<group>"; };
+		FFD5E4720A0D2AB100EE3F20 /* ModeLineParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeLineParser.m; sourceTree = "<group>"; };
+		FFD5E4760A0D313C00EE3F20 /* TextMateGlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextMateGlue.h; sourceTree = "<group>"; };
+		FFD5E4770A0D313C00EE3F20 /* TextMateGlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextMateGlue.m; sourceTree = "<group>"; };
+		FFF28E010DA1094400A44010 /* Unit Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF28E020DA1094400A44010 /* Unit Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit Tests-Info.plist"; sourceTree = "<group>"; };
+		FFF28E150DA10A0100A44010 /* SenFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenFoundation.framework; path = /Library/Frameworks/SenFoundation.framework; sourceTree = "<absolute>"; };
+		FFF28E180DA10A4A00A44010 /* TestModelineParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModelineParser.h; sourceTree = "<group>"; };
+		FFF28E190DA10A4A00A44010 /* TestModelineParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModelineParser.m; sourceTree = "<group>"; };
+		FFF28E920DA10F1400A44010 /* testfiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = testfiles; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6CAA160A0FF73C0021FBA1 /* Foundation.framework in Frameworks */,
+				FF6CAADE0A0FFBAA0021FBA1 /* AppKit.framework in Frameworks */,
+				FF29ADE60A112F4B003F77BD /* AGRegex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF28DFE0DA1094400A44010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF28E740DA10CF300A44010 /* AppKit.framework in Frameworks */,
+				FFF28E160DA10A0100A44010 /* SenFoundation.framework in Frameworks */,
+				FFF28E240DA10A7400A44010 /* AGRegex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* ModeLine */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				FFF28E170DA10A3600A44010 /* Unit Tests */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+				FF049BD50A91D552004B8421 /* LICENSES */,
+			);
+			name = ModeLine;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFF28E920DA10F1400A44010 /* testfiles */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				FFF28E020DA1094400A44010 /* Unit Tests-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF6CA9630A0FE9C60021FBA1 /* TabMate.h */,
+				FF6CA9640A0FE9C60021FBA1 /* TabMate.m */,
+				FFD5E4760A0D313C00EE3F20 /* TextMateGlue.h */,
+				FFD5E4770A0D313C00EE3F20 /* TextMateGlue.m */,
+				FFD5E4710A0D2AB100EE3F20 /* ModeLineParser.h */,
+				FFD5E4720A0D2AB100EE3F20 /* ModeLineParser.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFF28E150DA10A0100A44010 /* SenFoundation.framework */,
+				FF29ADE50A112F4B003F77BD /* AGRegex.framework */,
+				FF6CAADD0A0FFBAA0021FBA1 /* AppKit.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* TabMate.tmplugin */,
+				FFF28E010DA1094400A44010 /* Unit Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* ModeLine_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		FFF28E170DA10A3600A44010 /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF28E190DA10A4A00A44010 /* TestModelineParser.m */,
+				FFF28E180DA10A4A00A44010 /* TestModelineParser.h */,
+			);
+			name = "Unit Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* TabMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "TabMate" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				FF6CABDF0A0FFE480021FBA1 /* CopyFiles */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				FF6209CA0A0D8ED900190677 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabMate;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = ModeLine;
+			productReference = 8D5B49B6048680CD000E48DA /* TabMate.tmplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FFF28E000DA1094400A44010 /* Unit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF28E070DA1094500A44010 /* Build configuration list for PBXNativeTarget "Unit Tests" */;
+			buildPhases = (
+				FFF28DFC0DA1094400A44010 /* Resources */,
+				FFF28EF60DA113ED00A44010 /* CopyFiles */,
+				FFF28DFD0DA1094400A44010 /* Sources */,
+				FFF28DFE0DA1094400A44010 /* Frameworks */,
+				FFF28E4E0DA10C3A00A44010 /* CopyFiles */,
+				FFF28DFF0DA1094400A44010 /* ShellScript */,
+				FFF28F6B0DA11B0A00A44010 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unit Tests";
+			productName = "Unit Tests";
+			productReference = FFF28E010DA1094400A44010 /* Unit Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "ModeLine" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* ModeLine */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* TabMate */,
+				FFF28E000DA1094400A44010 /* Unit Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				FF049BD60A91D552004B8421 /* LICENSES in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF28DFC0DA1094400A44010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FFF28DFF0DA1094400A44010 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		FFF28F6B0DA11B0A00A44010 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Remove stray testfiles from /tmp\nrm -rf /var/tmp/testfiles";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD5E4730A0D2AB100EE3F20 /* ModeLineParser.m in Sources */,
+				FFD5E4780A0D313C00EE3F20 /* TextMateGlue.m in Sources */,
+				FF6CA9660A0FE9C60021FBA1 /* TabMate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF28DFD0DA1094400A44010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF28E2D0DA10AB900A44010 /* ModeLineParser.m in Sources */,
+				FFF28E1A0DA10A4A00A44010 /* TestModelineParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = $NATIVE_ARCH;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(SRCROOT)",
+					"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ModeLine_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = ModeLine;
+				STRIP_INSTALLED_PRODUCT = NO;
+				WRAPPER_EXTENSION = tmplugin;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(SRCROOT)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ModeLine_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = TabMate;
+				STRIP_INSTALLED_PRODUCT = NO;
+				WRAPPER_EXTENSION = tmplugin;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = TabMate;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = tmplugin;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = TabMate;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				WRAPPER_EXTENSION = tmplugin;
+			};
+			name = Release;
+		};
+		FFF28E050DA1094400A44010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Unit Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Unit Tests";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FFF28E060DA1094400A44010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Unit Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Unit Tests";
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "TabMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "ModeLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF28E070DA1094500A44010 /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF28E050DA1094400A44010 /* Debug */,
+				FFF28E060DA1094400A44010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
